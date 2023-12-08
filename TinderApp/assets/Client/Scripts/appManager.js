@@ -17,6 +17,7 @@ cc.Class({
       newMes: this.inputText.string,
     };
     this.inputText.string = "";
+    this.mScrollView.scrollToBottom(0.1);
     return data;
   },
   CreateMessage(mPrefabs, data, id) {
@@ -33,12 +34,6 @@ cc.Class({
       customPrefab.setName(data);
       newMess.parent = this.chatArea;
     }
-  },
-
-  onSizeChange(){
-    this.mScrollView.content.on('size-changed', ()=>{
-      this.mScrollView.scrollToBottom();
-    }); 
   },
 
   onCreateCustomMes(data, id) {
