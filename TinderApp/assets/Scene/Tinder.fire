@@ -156,7 +156,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 474.5819212738724
+      "z": 472.8498704663035
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -2810,7 +2810,7 @@
     "_N$startAxis": 0,
     "_N$paddingLeft": 0,
     "_N$paddingRight": 0,
-    "_N$paddingTop": 20,
+    "_N$paddingTop": 35,
     "_N$paddingBottom": 0,
     "_N$spacingX": 0,
     "_N$spacingY": 35,

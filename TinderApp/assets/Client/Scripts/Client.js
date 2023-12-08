@@ -8,8 +8,6 @@ cc.Class({
   },
 
   start() {
-    // this._serverUri = "https://socket-chat-app-ce41.onrender.com/";
-    cc.log(this.serverUri);
     this._socket = io(this.serverUri);
     this._socket.on("connect", (data) => {
       cc.log("connected");
