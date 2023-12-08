@@ -15,13 +15,15 @@ cc.Class({
       this.avatars.getSpriteFrames()[this._avatarIndex];
   },
   onLogin() {
-    this.userData = {
-      userName: this.inputText.string,
-      avatarId: this._avatarIndex,
-    };
-    this.sMenu.active = false;
-    this.sMain.active = true;
-    return this.userData;
+    if (this.inputText.string.trim() != "") {
+      this.userData = {
+        userName: this.inputText.string,
+        avatarId: this._avatarIndex,
+      };
+      this.sMenu.active = false;
+      this.sMain.active = true;
+      return this.userData;
+    }
   },
   onBack() {
     this._avatarIndex--;
