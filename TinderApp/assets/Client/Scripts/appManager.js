@@ -4,6 +4,7 @@ cc.Class({
     inputText: cc.EditBox,
     mItemMes: [cc.Prefab],
     chatArea: cc.Node,
+    mScrollView:cc.ScrollView,
     _textLength: 0,
   },
   //#region EVENT
@@ -32,6 +33,12 @@ cc.Class({
       customPrefab.setName(data);
       newMess.parent = this.chatArea;
     }
+  },
+
+  onSizeChange(){
+    this.mScrollView.content.on('size-changed', ()=>{
+      this.mScrollView.scrollToBottom();
+    }); 
   },
 
   onCreateCustomMes(data, id) {

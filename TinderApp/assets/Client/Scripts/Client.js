@@ -1,9 +1,9 @@
 cc.Class({
   extends: cc.Component,
   properties: {
-    mUser: cc.require('LogginUser'),
-    mApp: cc.require("appManager"),
-    _serverUri: "http://172.16.0.87:3000",
+    mUser: require('LogginUser'),
+    mApp: require("appManager"),
+    _serverUri: "https://socket-chat-app-ce41.onrender.com/",
     _socket: WebSocket,
   },
 
