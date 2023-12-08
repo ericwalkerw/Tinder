@@ -104,19 +104,19 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 37,
+      "g": 37,
+      "b": 37,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 216.99,
+      "width": 193.4,
       "height": 40.32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": -0.19,
+      "x": -0.21,
       "y": 1
     },
     "_position": {
@@ -164,14 +164,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196.99,
+      "width": 173.4,
       "height": 40.32
     },
     "_anchorPoint": {
@@ -217,8 +217,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "ScrollView content",
-    "_N$string": "ScrollView content",
+    "_string": "simple message",
+    "_N$string": "simple message",
     "_fontSize": 24,
     "_lineHeight": 32,
     "_enableWrapText": true,
@@ -254,7 +254,7 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 216.99,
+      "width": 193.4,
       "height": 40.32
     },
     "_resize": 1,
@@ -293,7 +293,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e0d5aa9f-eb55-4948-bdaa-1dae8a7c66b6"
+      "__uuid__": "8cd392f9-9920-47d9-b92f-3c5bd5580879"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -361,7 +361,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 18,
       "y": -40.32,
       "z": 0
     },
@@ -421,8 +421,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 75.084,
-      "y": 55,
+      "x": 24.084,
+      "y": 62,
       "z": 0
     },
     "_scale": {
@@ -517,13 +517,13 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": 0.5,
+      "y": 0.5
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -2.038,
-      "y": -3.745,
+      "x": 0.962,
+      "y": 20.255,
       "z": 0
     },
     "_scale": {

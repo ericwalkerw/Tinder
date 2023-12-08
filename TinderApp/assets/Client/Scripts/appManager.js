@@ -43,7 +43,7 @@ cc.Class({
 
   onCreateCustomMes(data, id) {
     const selectedPrefab =
-      this._textLength >= 20 ? this.mItemMes[1] : this.mItemMes[0];
+      data.newMes.length >= 24 ? this.mItemMes[1] : this.mItemMes[0];
     this.CreateMessage(selectedPrefab, data, id);
   },
 });
