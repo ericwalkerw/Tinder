@@ -119,13 +119,13 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": -0.15,
-      "y": 1
+      "x": -0.13,
+      "y": 3.73
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 12,
-      "y": 0,
+      "x": 21,
+      "y": 110.0736,
       "z": 0
     },
     "_scale": {
@@ -180,12 +180,12 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 1
+      "y": 0
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 58.9,
-      "y": 0,
+      "x": 50.9,
+      "y": -150.346,
       "z": 0
     },
     "_scale": {
@@ -220,8 +220,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "ScrollView content",
-    "_N$string": "ScrollView content",
+    "_string": "simple message",
+    "_N$string": "simple message",
     "_fontSize": 24,
     "_lineHeight": 32,
     "_enableWrapText": true,
@@ -365,7 +365,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -40.32,
+      "y": -40.31999999999999,
       "z": 0
     },
     "_scale": {
@@ -414,18 +414,18 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 45.03,
+      "width": 57.82,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0,
       "y": 0.5
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 23.622,
-      "y": 64,
+      "x": -1.378,
+      "y": 70,
       "z": 0
     },
     "_scale": {
@@ -460,9 +460,9 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "name",
-    "_N$string": "name",
-    "_fontSize": 18,
+    "_string": "name12",
+    "_N$string": "name12",
+    "_fontSize": 16,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -525,8 +525,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -2.038,
-      "y": -2.717,
+      "x": -1.038,
+      "y": 2.283,
       "z": 0
     },
     "_scale": {

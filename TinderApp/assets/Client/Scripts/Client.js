@@ -1,7 +1,7 @@
 cc.Class({
   extends: cc.Component,
   properties: {
-    mUser: require('LogginUser'),
+    mUser: require("LogginUser"),
     mApp: require("appManager"),
     serverUri: "https://socket-chat-app-ce41.onrender.com/",
     _socket: WebSocket,
@@ -9,7 +9,7 @@ cc.Class({
 
   start() {
     // this._serverUri = "https://socket-chat-app-ce41.onrender.com/";
-    cc.log(this.serverUri)
+    cc.log(this.serverUri);
     this._socket = io(this.serverUri);
     this._socket.on("connect", (data) => {
       cc.log("connected");
@@ -21,13 +21,15 @@ cc.Class({
 
   sendMesToServer() {
     const data = this.mApp.onSendMessage();
-    if(data.newMes.trim() !=""){
+    if (data.newMes.trim() != "") {
       this._socket.emit("chat", data);
     }
   },
 
-  senduserData(){
-    const userData = this.mUser.onLogin()
-    this._socket.emit('user', userData);
-  }
+  senduserData() {
+    const userData = this.mUser.onLogin();
+    if(userData.userName.trim()!= ""){
+      this._socket.emit("user", userData);
+    }
+  },
 });
